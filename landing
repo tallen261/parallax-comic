@@ -1,0 +1,57 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>The Ecksepshunallz</title>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://via.placeholder.com/150" alt="logo">
+        </div>
+        <div class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul>
+            <li>Top</li>
+            <li>Chapter 1</li>
+            <li>Chapter 2</li>
+            <li>Chapter 3</li>
+        </ul>
+    </nav>
+
+    <div class="parallax1">
+        <div class="heading">The Beginning</div>
+        <div class="heading2">Chapter 1</div>
+     </div>
+
+     <section>
+         <hi>From the Start</hi>
+         <div class="two col">
+             <p>
+                Integer semper vitae elit nec elementum. Nunc quis nulla sit amet ex egestas malesuada sed et ante. Fusce consequat nisl vel viverra tempor. Sed lorem ipsum, convallis sit amet arcu vitae, hendrerit aliquam arcu. Etiam massa orci, pharetra sit amet luctus et, interdum a sem. Sed finibus sem sed tellus pretium aliquet. Duis nulla mauris, dignissim eu ex ac, malesuada mollis odio. Phasellus placerat pharetra tortor, nec eleifend leo consectetur id. Nunc viverra eros ut ex tincidunt, et bibendum eros dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam dolor neque, imperdiet nec felis non, feugiat vehicula mi. Suspendisse ultricies lacus ut augue semper dictum. In hac habitasse platea dictumst. Aenean blandit, eros a placerat convallis, purus dolor mollis nulla, ac sagittis risus ipsum egestas nisi.   
+             </p>
+         </div>
+
+         <div class="two col">
+                <p>
+                   Integer semper vitae elit nec elementum. Nunc quis nulla sit amet ex egestas malesuada sed et ante. Fusce consequat nisl vel viverra tempor. Sed lorem ipsum, convallis sit amet arcu vitae, hendrerit aliquam arcu. Etiam massa orci, pharetra sit amet luctus et, interdum a sem. Sed finibus sem sed tellus pretium aliquet. Duis nulla mauris, dignissim eu ex ac, malesuada mollis odio. Phasellus placerat pharetra tortor, nec eleifend leo consectetur id. Nunc viverra eros ut ex tincidunt, et bibendum eros dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam dolor neque, imperdiet nec felis non, feugiat vehicula mi. Suspendisse ultricies lacus ut augue semper dictum. In hac habitasse platea dictumst. Aenean blandit, eros a placerat convallis, purus dolor mollis nulla, ac sagittis risus ipsum egestas nisi.   
+                </p>
+        </div>
+     </section>
+
+     <div class="parallax2">
+         <div class="heading-sm">And Then...</div>
+     </div>
+        
+</body>
+</head>
+</html>   
