@@ -59,3 +59,42 @@ nav ul li {
     transition: 1s;
     text-shadow: 0 0 10px #000;
 }
+
+/* nav ul li a{
+    line-height: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
+    text-shadow: 0 0 10px #000;
+} */
+
+/* nav.black ul li a{
+    color: #fff;
+    line-height: 20px;
+} */
+
+nav.black ul li{
+    color: #fff;
+    line-height: 20px;
+
+}
+
+nav ul li.active,
+nav ul li:hover{
+    color: orange;
+}
+
+.parallax1 {
+    background: url("https://static0.cbrimages.com/wordpress/wp-content/uploads/2018/08/magneto.jpg");
+    min-height: 100%
+}
+
+.parallax2 {
+    background: url("https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/ApplicationPageBlock/60613/5ade3133098a6c5f33c37241c6a9a0f021fc2d29._QL80_TTD_.jpg");
+    min-height: 60%;
+}
+
+.parallax3
