@@ -88,13 +88,125 @@ nav ul li:hover{
 }
 
 .parallax1 {
-    background: url("https://static0.cbrimages.com/wordpress/wp-content/uploads/2018/08/magneto.jpg");
+    background: url("https://cdn.vox-cdn.com/thumbor/5VLgov171MJ_AZaQIHqe9XQHu2I=/0x0:2184x1152/1200x800/filters:focal(899x231:1247x579)/cdn.vox-cdn.com/uploads/chorus_image/image/58771773/X-Men-Apocalypse-Angry-Magneto.0.0.jpg");
     min-height: 100%
 }
 
 .parallax2 {
+    background: url("https://static2.cbrimages.com/wordpress/wp-content/uploads/2018/11/magneto-featured-1.jpg");
+    min-height: 60%;
+}
+
+.parallax3 {
+    background: url("https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/ApplicationPageBlock/60613/5ade3133098a6c5f33c37241c6a9a0f021fc2d29._QL80_TTD_.jpg");
+    min-height: 40%;
+
+}
+
+.parallax4 {
     background: url("https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/ApplicationPageBlock/60613/5ade3133098a6c5f33c37241c6a9a0f021fc2d29._QL80_TTD_.jpg");
     min-height: 60%;
 }
 
-.parallax3
+.parallax5 {
+    background: url("https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/ApplicationPageBlock/60613/5ade3133098a6c5f33c37241c6a9a0f021fc2d29._QL80_TTD_.jpg");
+    min-height: 50%;
+}
+
+.parallax6 {
+    background: url("https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/ApplicationPageBlock/60613/5ade3133098a6c5f33c37241c6a9a0f021fc2d29._QL80_TTD_.jpg");
+    min-height: 100%;
+}
+
+.parallax1, .parallax2, .parallax3, 
+.parallax4, .parallax4, .parallax6 {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading {
+    position: absolute;
+    color: #fff;
+    font-size: 550%;
+    top: 38%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+.heading2 {
+    position: absolute;
+    color: #fff;
+    font-size: 150%;
+    top: 50%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+.heading-sm {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000;
+}
+
+.two-col {
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: center;
+}
+section {
+    overflow: auto;
+    padding: 50px 80px;
+}
+
+.dark {
+    overflow: auto;
+    padding: 50px 80px;
+    background-color: #323232;
+    color: #f2f2f2;
+}
+
+@media (max-width: 900px){
+    nav ul li {
+        font-size: 12px;
+    }
+    .heading {
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 600px){
+    .heading {
+        font-size: 250%;
+    }
+    .heading-sm {
+        font-size: 180%;
+    }
+    .two-col {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    nav ul li {
+        font-size: 8px;
+    }
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
