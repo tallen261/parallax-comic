@@ -88,12 +88,12 @@ nav ul li:hover{
 }
 
 .parallax1 {
-    background: url("https://cdn.vox-cdn.com/thumbor/5VLgov171MJ_AZaQIHqe9XQHu2I=/0x0:2184x1152/1200x800/filters:focal(899x231:1247x579)/cdn.vox-cdn.com/uploads/chorus_image/image/58771773/X-Men-Apocalypse-Angry-Magneto.0.0.jpg");
+    background: url("images/back.png");
     min-height: 100%
 }
 
 .parallax2 {
-    background: url("https://static2.cbrimages.com/wordpress/wp-content/uploads/2018/11/magneto-featured-1.jpg");
+    background: url("images/ink_man.png");
     min-height: 60%;
 }
 
@@ -104,7 +104,7 @@ nav ul li:hover{
 }
 
 .parallax4 {
-    background: url("https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/ApplicationPageBlock/60613/5ade3133098a6c5f33c37241c6a9a0f021fc2d29._QL80_TTD_.jpg");
+    background: url("images/nasty_face.png");
     min-height: 60%;
 }
 
